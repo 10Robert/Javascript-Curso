@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="img/image.jpg">
+    <h1>Veterinária Avenida</h1>
+    <form>
+        <p>Valor da Vacina: <input type="number" min="0" step="0.01" id="inValor" required autofocus>
+
+        <p>Possui Convênio: 
+            <input type="radio" name="convênio" id="rbSim"checked autofocus> Sim
+            <input type="radio" name="convênio" id="rbNao"checked> Não
+        </p> 
+        <span>Convênio: </span>
+        <select id="inConvenio" class="oculta">
+            <option value="1">Saúde Animal</option>
+            <option value="2">Amigo dos animais</option>
+        </select>
+        <input type="submit" value="Calcular Desconto">
+    </form>
+
+    <pre id="outResp1"></pre>
+    <pre id="outResp2"></pre>
+    <script src="index.js"></script>
+</body>
+</html>
+

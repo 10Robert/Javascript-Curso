@@ -1,0 +1,14 @@
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-right: 30px;
+}
+
+.oculta{
+    display: none;
+}
+
+.exibe{
+    display: inline;
+}

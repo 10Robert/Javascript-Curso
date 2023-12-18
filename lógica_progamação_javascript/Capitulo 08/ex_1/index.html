@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <img src="img/image.jpg" rel="imagem" class="normal">
+    <h1> Revenda Avenida - Promoção </h1>
+    <form>
+        <p>Modelo do Veículo:
+            <input type="text" id="inModelo" required autofocus>
+        </p>
+        <p>Ano de fabricação:
+             <input type="number" id="inAno" required></p>
+        <p>Preço R$: 
+            <input type="number" min="0" step="0.01" id="inPreco" required>
+        </p>
+        <p>
+            <input type="submit" value="Classificar - Calcular Entrada e Parcelas">
+        </p>
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+    <script src="index.js"></script>    
+</body>
+</html>

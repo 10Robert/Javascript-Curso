@@ -1,0 +1,6 @@
+(arrow function)funções de seta -> Uma função é atribuída para uma variável.
+
+
+funções com passagem de parâmetros ->
+
+funções anônimas ->
