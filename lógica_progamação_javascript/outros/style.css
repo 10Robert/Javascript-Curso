@@ -1,0 +1,17 @@
+h1 {
+    border-bottom-style: inset;
+}
+
+.exclui {
+    cursor: pointer;
+    color: red;
+}
+
+.tarefa-normal {
+    color: black;
+}
+
+.tarefa-selecionada {
+    color: red;
+    font-style: italic;
+}

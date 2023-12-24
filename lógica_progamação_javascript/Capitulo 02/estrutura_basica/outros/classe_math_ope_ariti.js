@@ -2,7 +2,7 @@
 // ceil -> arredonda um numero para cima. por exemplo o retorno sera 11.
 // floor -> arredonda um numero para baixo. por exemplo o retorno sera 10.
 // pow -> retorna a base elevada ao expoente
-// random -> retorna um numero aleatório entre 0 e 1 com varias casas decimais
+// random -> retorna um numero aleatório entre 0 e 0.99 com varias casas decimais
 // round -> arredonda o numero para um inteiro mais proximo.
 // sqrt -> Retorna a raiz quadrada do numero
 

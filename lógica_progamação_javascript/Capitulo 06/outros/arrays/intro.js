@@ -16,7 +16,7 @@ produtos.unshift("adciona elemento ao inicio") // adciona um elemento no incio, 
 console.log(produtos)
 produtos.pop() // remove o ultimo elemento do vetor
 console.log(produtos)
-produtos.shift // remove o primeiro item da lista.
+produtos.shift() // remove o primeiro item da lista.
 console.log(produtos)
 
 
