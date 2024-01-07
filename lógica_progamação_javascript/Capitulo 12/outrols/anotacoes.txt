@@ -1,0 +1,12 @@
+middlewares -> Uma mediador entre duas partes, supondo que voce queira registrar 
+um horario todas as vezes que aquela rota receber um get, o middlewares iria ficar no meio da requisição e da rota.
+
+
+Async e await -> 
+
+nodejs é assincrono, de forma resumida, é uma programação em que os comandos ocorrem "sem sincronia" de conclusão
+
+linguagens síncronas os comandos são executados uma linha após a outra e a linha seguinte só inica após a conclusão da anterior. Para fazer com que dois processos
+sejam executados em paralelo se faz necessario o uso de threads.
+
+operações basicas realizadas em uma tabela do banco de dados são chamadas de CRUD (Create, Read, Update e Delete)

@@ -110,7 +110,7 @@ frm.btRemover.addEventListener("click", ()=>{
   const poltrona = frm.inPoltrona.value
   const ocupadas = localStorage.getItem("teatroOcupadas").split(";")
   const str = poltrona + ""
-
+  
   if(!ocupadas.includes(str)){
     alert("Poltrona não esta reservada")
     return
@@ -122,5 +122,4 @@ frm.btRemover.addEventListener("click", ()=>{
   ocupadas.splice(ocupadas.indexOf(str), 1)
   localStorage.setItem("teatroOcupadas", ocupadas.join(";"))
   location.reload()
-  
 });
